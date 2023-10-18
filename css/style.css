@@ -1,5 +1,4 @@
 *{
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +15,6 @@ body{
     vertical-align: middle;
     font-size: 40px;
     font-weight: 700;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .logo{
     vertical-align: middle;
@@ -25,16 +23,18 @@ body{
 /* MAIN */
 
 /* HIGH MAIN */
-.high_main{
+.main{
     max-width: 991px;
     background-color: white;
+    margin: 0px auto;
+}
+.high{
     margin: 30px auto 5px; 
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
 button{
     padding: 5px;
-    margin: 10px 5px 10px 30px;
     border-radius: 5px;
     box-shadow: none ;
 }
@@ -51,10 +51,7 @@ button{
     background-color: white;
 }
 /* LOW MAIN */
-.low_main{
-    max-width: 991px;
-    background-color: white;
-    margin: 0px auto; 
+.low{
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -81,14 +78,8 @@ ul{
     vertical-align: middle;
 }
 .red{
-    display: inline-block;
-    width: 20px;
-    height: 20px;
     border: solid red 1px;
-    border-radius: 50%;
-    text-align: center;
     color: red;
-    vertical-align: middle;
 }
 
 .element{
